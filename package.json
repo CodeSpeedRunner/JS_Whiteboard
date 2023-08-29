@@ -1,0 +1,44 @@
+{
+  "name": "theboard_matrix",
+  "version": "0.11.2",
+  "description": "A Whiteboard using the matrix protocol for collaboration and cloud storage",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve --config webpack.dev.js"
+  },
+  "repository": "git+https://github.com/toger5/TheBoard.git",
+  "author": "Timo k. <toger5@hotmail.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toger5/TheBoard/issues"
+  },
+  "homepage": "https://github.com/toger5/TheBoard#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/runtime": "^7.15.3",
+    "babel-loader": "^8.2.2",
+    "buffer": "^6.0.3",
+    "core-js": "^3.16.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jsx-no-react": "^1.0.0",
+    "matrix-js-sdk": "^12.1.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "paper": "^0.12.15",
+    "simplify-js": "^1.2.4",
+    "style-loader": "^3.2.1",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "html-loader": "^2.1.2",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
